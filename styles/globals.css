@@ -1,0 +1,95 @@
+:root {
+	--color-white: #ffffff;
+	--color-dark-white: #f9f9f9;
+	--color-lighter-gray: #dddddd;
+	--color-light-gray: #b7b7b7;
+	--color-gray: #adacac;
+	--color-dark-gray: #848484;
+	--color-darker-gray: #656565;
+	--color-blue: #0265f9;
+	--color-red: #e95555;
+
+	--font-nanum-light: 'nanum_light';
+	--font-nanum-regular: 'nanum_regular';
+	--font-nanum-bold: 'nanum_bold';
+	--font-nanum-black: 'nanum_black';
+}
+
+* {
+	box-sizing: border-box;
+	font-family: var(--font-nanum-regular);
+}
+
+*::-webkit-scrollbar {
+	display: none;
+}
+
+body {
+	margin: auto;
+	width: 100%;
+	min-height: 100vh;
+	max-width: 1920px;
+	scroll-behavior: smooth;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+button {
+	border: none;
+	cursor: pointer;
+}
+
+.a11y-hidden,
+[hidden] {
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+}
+
+@font-face {
+	font-family: 'nanum_light';
+	src: url('/assets/fonts/NanumSquareRoundL.woff2') format('woff2'),
+		url('/assets/fonts/NanumSquareRoundL.woff') format('woff'), url('/assets/fonts/NanumSquareRoundL.ttf') format('ttf');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'nanum_regular';
+	src: url('/assets/fonts/NanumSquareRoundR.woff2') format('woff2'),
+		url('/assets/fonts/NanumSquareRoundR.woff') format('woff'), url('/assets/fonts/NanumSquareRoundR.ttf') format('ttf');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'nanum_bold';
+	src: url('/assets/fonts/NanumSquareRoundB.woff2') format('woff2'),
+		url('/assets/fonts/NanumSquareRoundB.woff') format('woff'), url('/assets/fonts/NanumSquareRoundB.ttf') format('ttf');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'nanum_black';
+	src: url('/assets/fonts/NanumSquareRoundEB.woff2') format('woff2'),
+		url('/assets/fonts/NanumSquareRoundEB.woff') format('woff'),
+		url('/assets/fonts/NanumSquareRoundEB.ttf') format('ttf');
+	font-display: swap;
+}

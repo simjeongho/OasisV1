@@ -1,0 +1,4 @@
+export const DESCRIPTION_LETTERS_LIMIT = 400;
+export const INTRODUCTION_LETTERS_LIMIT = 500;
+
+export const TITLE_LETTERS_LIMIT = 25;

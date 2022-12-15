@@ -1,0 +1,3 @@
+export const DEDUPING_INTERVAL_TIME = 5000;
+
+export const AMOUNT_OF_DATA_AT_ONCE = 10;
